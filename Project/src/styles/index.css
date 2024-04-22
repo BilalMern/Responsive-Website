@@ -13,8 +13,8 @@
 
 /***! Design System */
 
-:root{  /***? This is known as css variable */
---colored-name: orange
+/*:root{  /***? This is known as css variable */
+/*--colored-name: orange
 }
 .item-1{
     color: var(--colored-name)
@@ -30,4 +30,4 @@
 .item-4{
     color: var(--colored-name)
     
-}
+}*/
