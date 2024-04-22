@@ -1,0 +1,33 @@
+/* .item-1{
+    color: red;
+}
+.item-2{
+    color: red;
+}
+.item-3{
+    color: red;
+}
+.item-4{
+    color: red;
+} */
+
+/***! Design System */
+
+:root{  /***? This is known as css variable */
+--colored-name: orange
+}
+.item-1{
+    color: var(--colored-name)
+}
+.item-2{
+    color: var(--colored-name)
+    
+}
+.item-3{
+    color: var(--colored-name)
+  
+}
+.item-4{
+    color: var(--colored-name)
+    
+}
