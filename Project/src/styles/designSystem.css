@@ -17,8 +17,8 @@
 
   --body: 14px;
 
-  --font-1: "Work Sans", sans-serif;
-  --font-2: "Crimson Text", serif;
+  --font-1: "Crimson Text", serif;
+  --font-2: "Work Sans", sans-serif;
 
   --color-dark-100: rgba(41,33,33,1);
   --color-dark-75: rgba(41,33,33,0.75);
@@ -35,4 +35,40 @@
   --color-green-50: rgba(116,198,157,0.50);
   --color-green-25: rgba(116,198,157,0.25);
 
+}
+
+/*! style rules for common buttons */
+
+.white-btn,
+.dark-btn{
+    color: var(--color-dark-100);
+    cursor: pointer;
+    font-size: var(--h5);
+    font-family: var(--font-2);
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-white-100);
+    padding: 10px 40px;
+}
+.dark-btn{
+    color: var(--color-white-100);
+    background-color: var(--color-dark-100);
+}            
+
+/* ! style rules for text colors */
+/* ? predifined classes */
+
+.text-white{
+  color: var(--color-white-100);
+}
+.text-dart{
+  color: var(--color-dark-100);
+}
+.text-green{
+  color: var(--color-green-100)
+}
+
+/* ! style rules for labels */
+.label{
+  
 }
