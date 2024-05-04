@@ -1,33 +1,3 @@
-/* .item-1{
-    color: red;
-}
-.item-2{
-    color: red;
-}
-.item-3{
-    color: red;
-}
-.item-4{
-    color: red;
-} */
+/***!We will follow CSS naming convention known as BEM (Blocks, Elements and Modifiers). Most parent element known as Block and its children known as Elements and its grandchilrens are known as Modifiers.like we divided our Navbar into two sections Logo and Menu in Logo we have two things image and text and on the other hand we have Menu which is divided into four sections home portfolio services and contact. So here Navbar will be block and Logo and Menu are Elements and image,text,home,services,portfolio,contact are Modifiers.**/
 
-/***! Design System */
 
-/*:root{  /***? This is known as css variable */
-/*--colored-name: orange
-}
-.item-1{
-    color: var(--colored-name)
-}
-.item-2{
-    color: var(--colored-name)
-    
-}
-.item-3{
-    color: var(--colored-name)
-  
-}
-.item-4{
-    color: var(--colored-name)
-    
-}*/
