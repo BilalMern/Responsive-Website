@@ -87,3 +87,43 @@
 .hero{
 background-color: var(--color-green-100);
 }
+
+/* ! style rules for hero */
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.navbar__logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar--logo--text{
+  color: var(--color-white-100);
+  font-family: var(--font-2);
+  letter-spacing: var(--ls);
+  font-size: var(--h2);
+  font-weight: 500;
+}
+
+.navbar__menu{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-family: var(--font-2);
+  font-size: var(--h5);
+}
+
+.navbar__menu a{
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-white-100);
+}
+
+/* ! If we want to style some classes together while some portion of the class is same and rest is different then we can style them together by */
