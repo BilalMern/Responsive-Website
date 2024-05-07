@@ -1,3 +1,8 @@
+/*! Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100..900&display=swap");
+/*! Bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 /* ! Responsive Breakpoints */
 /* ? 1200-----For Desktop  */
 /* ? 1020-----For Laptop  */
@@ -11,8 +16,7 @@
   box-sizing: border-box; /*? using this property because if our screen size is 1000 px in width and we give some extra margin and padding and it exeeds to 1000 px then this property allign our items automatically under 1000 px and those extra margin and padding will added inside the original screen width. By using it our design will pixel perfect. */
 }
 
-/*! Google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100..900&display=swap");
+
 
 /*! Design system */
 :root {
@@ -94,7 +98,7 @@
 background-color: var(--color-green-100);
 }
 
-/* ! style rules for hero */
+/* ! style rules for navbar */
 .navbar{
   display: flex;
   flex-direction: row;
@@ -132,6 +136,14 @@ background-color: var(--color-green-100);
 text-decoration: none;
 color: var(--color-white-100);
 }
+.navbar__icons{
+  display: none;
+}
+.navbar__icons i{
+  color: var(--color-white-100);
+  cursor: pointer;
+  font-size: var(--h2);
+}
 
 /*! Style rules for common classes */
 .container{
@@ -152,6 +164,15 @@ color: var(--color-white-100);
 @media(max-width: 768px){
   .container{
     max-width: 500px;
+  }
+  .navbar__menu{
+    display: none;
+  }
+  .navbar__icons{
+    display: block;
+  }
+  .hide{
+    display: none;
   }
 }
 @media(max-width: 568px){
