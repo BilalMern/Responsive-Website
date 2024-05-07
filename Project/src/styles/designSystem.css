@@ -1,3 +1,9 @@
+/* ! Responsive Breakpoints */
+/* ? 1200-----For Desktop  */
+/* ? 1020-----For Laptop  */
+/* ? 768-----For Tablet  */
+/* ? 568-----For Mobile  */
+
 /* ! Removing default browser styles */
 * {
   margin: 0;
