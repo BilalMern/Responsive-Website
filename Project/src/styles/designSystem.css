@@ -120,10 +120,15 @@ background-color: var(--color-green-100);
   font-size: var(--h5);
 }
 
-.navbar__menu a{
-  text-decoration: none;
-  list-style: none;
-  color: var(--color-white-100);
+/* ! If we want to style some classes together while some portion of the class is same and rest is different then we can style them together by */
+
+[class^="navbar__menu--"]{     /* ! this will targer all the things which matches the given key though the rest is different */
+text-decoration: none;
+color: var(--color-white-100);
 }
 
-/* ! If we want to style some classes together while some portion of the class is same and rest is different then we can style them together by */
+/*! Style rules for common classes */
+.container{
+  max-width: 1330px;
+  margin: auto;
+}
