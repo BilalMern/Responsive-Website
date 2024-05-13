@@ -1,3 +1,14 @@
 /***!We will follow CSS naming convention known as BEM (Blocks, Elements and Modifiers). Most parent element known as Block and its children known as Elements and its grandchilrens are known as Modifiers.like we divided our Navbar into two sections Logo and Menu in Logo we have two things image and text and on the other hand we have Menu which is divided into four sections home portfolio services and contact. So here Navbar will be block and Logo and Menu are Elements and image,text,home,services,portfolio,contact are Modifiers.**/
 
 
+/***! Style rules for sectionOne **/
+.section--left--text{
+    font-family: var(--font-2);
+    color: var(--color-white-75);
+    font-size: var(--body);
+}
+
+.section--left--btn{
+    align-self: start;
+    margin-top: 20px;
+}

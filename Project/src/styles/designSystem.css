@@ -160,6 +160,17 @@
   grid-template-columns: repeat(2, 1fr);
   padding: 40px 0;
 }
+.common-title{
+  text-transform: capitalize;
+  font-family: var(--font-1);
+  font-weight: bold;
+  font-size: var(--h1);
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 @media (max-width: 1200px) {
   .container {
     max-width: 970px;
