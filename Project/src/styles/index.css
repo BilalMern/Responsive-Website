@@ -29,9 +29,8 @@
 
 .sectionTwo__logo{
     display: grid;
-    grid-template-columns: repeat(5,155px);
-justify-content: center;
-gap: 50px;
+    grid-template-columns: repeat(5,1fr);
+
 }
 
 .sectionTwo__logo img{
