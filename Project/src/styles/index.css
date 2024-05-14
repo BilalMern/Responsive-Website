@@ -42,3 +42,15 @@
 .sectionTwo__btn{
 justify-self: center;
 }
+
+/***! Style rules for sectionThree **/
+
+.sectionThree__right--text{
+color: var(--color-dark-50);
+font-family: var(--font-2);
+font-size: var(--body);
+}
+
+.sectionThree__right--btn{
+    align-self: start;
+}
