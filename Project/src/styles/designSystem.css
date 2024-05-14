@@ -171,6 +171,10 @@
   flex-direction: column;
   gap: 10px;
 }
+.text-center{
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 970px;

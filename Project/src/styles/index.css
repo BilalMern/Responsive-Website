@@ -12,3 +12,34 @@
     align-self: start;
     margin-top: 20px;
 }
+
+/***! Style rules for sectionTwo **/
+
+.sectionTwo{
+    display: grid;
+    gap: 30px;
+   padding: 40px 0;
+
+}
+
+.sectionTwo__content--text{
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+.sectionTwo__logo{
+    display: grid;
+    grid-template-columns: repeat(5,155px);
+justify-content: center;
+gap: 50px;
+}
+
+.sectionTwo__logo img{
+   align-self: center;
+   justify-self: center;
+
+}
+
+.sectionTwo__btn{
+justify-self: center;
+}
