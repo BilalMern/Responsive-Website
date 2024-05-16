@@ -117,13 +117,6 @@ font-size: var(--sub);
     }
 }
 
-@media(max-width: 568px){
-    .sectionTwo__logo{
-        grid-template-columns: repeat(1,1fr);
-    gap: 40px;
-    }
-}
-
 @media(max-width: 768px){
     .sectionOne__right, .sectionFour__right{
         order: 0;
@@ -131,6 +124,18 @@ font-size: var(--sub);
       .sectionOne__left, .sectionFour__left{
         order: 1;
       }
+      .sectionFive__cards{
+        grid-template-columns: repeat(2,1fr);
+      }
       
-      
+}
+
+@media(max-width: 568px){
+    .sectionTwo__logo{
+        grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+    }
+    .sectionFive__cards{
+        grid-template-columns: repeat(1,1fr);
+      }
 }
