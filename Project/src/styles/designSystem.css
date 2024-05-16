@@ -253,6 +253,7 @@ z-index: -1;
   gap: 20px;
   align-items: center;
 }
+}
 @media (max-width: 568px) {
   .container {
     max-width: 90%;
